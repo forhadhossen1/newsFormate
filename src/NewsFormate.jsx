@@ -2,7 +2,7 @@
 
 const NewsFormate = () => {
     return (
-        <div className="max-w-screen-xl p-5 mx-auto dark:bg-gray-800 dark:text-gray-100">
+        <section className="max-w-screen-xl p-5 mx-auto dark:bg-gray-800 dark:text-gray-100">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 md:gap-0 lg:grid-rows-2">
                 <div className="relative flex items-end justify-start w-full text-left bg-center bg-cover cursor-pointer h-96 md:col-span-2 lg:row-span-2 lg:h-full group dark:bg-gray-500" style={{ backgroundImage: 'url(https://source.unsplash.com/random/245x320)' }}>
 
@@ -71,7 +71,7 @@ const NewsFormate = () => {
                     </h2>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
